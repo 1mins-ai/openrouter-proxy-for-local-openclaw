@@ -1,0 +1,6 @@
+name = "openrouter-workerxyz"
+main = "src/index.js"
+compatibility_date = "2026-02-28"
+
+[placement]
+region = "aws:us-east-1"
