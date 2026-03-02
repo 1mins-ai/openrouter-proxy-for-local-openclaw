@@ -49,7 +49,7 @@ node proxy.js
 
 ## 使用方式
 
-當 Local Proxy 啟動後，你可以發送請求到 `http://localhost:3000`，它會透過 Cloudflare Worker 轉發到 OpenRouter。
+當 Local Proxy 啟動後，你可以發送請求到 `http://localhost:3060`，它會透過 Cloudflare Worker 轉發到 OpenRouter。
 
 ### 支援功能
 - **CORS 處理**: Worker 端已處理跨域請求。
@@ -65,5 +65,6 @@ node proxy.js
 
 ### OpenClaw json 需要改的地方 (主要加models 同改agents)
 可參考sample_openclaw.json
+
 
 
